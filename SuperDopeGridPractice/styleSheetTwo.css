@@ -1,0 +1,64 @@
+﻿.container{
+    display:grid;
+    grid-gap:5px;
+    max-width:1000px;
+    grid-template-rows:repeat(6,90px);
+    grid-template-columns:repeat(12,1fr);
+    width:90%;
+    margin:2rem auto;
+    color:white;
+    text-align:center;
+    align-content:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+div{
+    background-color:yellowgreen;
+}
+.one{
+    grid-column:1 / span 12;
+}
+.two{
+    grid-column:1/span 6;
+}
+.three{
+    grid-column: 7/ span 6;
+}
+.four{
+    grid-column:1/ span 4;
+}
+.five{
+    grid-column:5/span 4;
+}
+.six{
+    grid-column:9/span 4;
+}
+.seven{
+    grid-column:1/span 3;
+}
+.eight{
+    grid-column:4/span 3;
+}
+.nine{
+    grid-column:7/span 3;
+}
+.ten{
+    grid-column:10/span 3;
+}
+.eleven{
+    grid-column:1/span 2;
+}
+.twelve{
+    grid-column:3/span 2;
+}
+.thirteen{
+    grid-column:5/span 2;
+}
+.fourteen{
+    grid-column:7/span 2;
+}
+.fifteen{
+    grid-column:9/span 2;
+}
+.sixteen{
+    grid-column:11/span 2;
+}
