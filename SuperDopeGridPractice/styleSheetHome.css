@@ -1,0 +1,20 @@
+﻿.container{
+    display:grid;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-template-columns:repeat(5,1fr);
+    margin:2rem auto;
+    width:90%;
+    max-width:1000px;
+    text-align:center;
+    grid-gap:10px;
+}
+div{
+    background-color:greenyellow;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
