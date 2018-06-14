@@ -1,0 +1,30 @@
+﻿section {
+    background-color: darkolivegreen;
+    border-style: solid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(4,100px);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    max-width: 750px;
+    width: 90%;
+    margin: 2rem auto;
+    
+}
+
+.bigboy{
+    grid-column:span 7;
+}
+.healthy{
+    grid-column:span 3;
+}
+.invisible{
+    background-color:rgba(1,1,1,0);
+    border-style:none;
+}
+.slim{
+    grid-column:span 1;
+}
