@@ -1,0 +1,31 @@
+﻿.container{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows:repeat(12, 45px);
+    text-align:center;
+    max-width:1000px;
+    width:90%;
+    margin:2rem auto;
+    grid-gap:5px;
+    grid-auto-flow:column;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    background-color:greenyellow;
+}
+.rone{
+    grid-row:span 12;
+}
+.rtwo{
+    grid-row:span 6;
+}
+.rthree{
+    grid-row:span 4;
+}
+.rfour{
+    grid-row:span 3;
+}
+.rfive{
+    grid-row:span 2;
+}
