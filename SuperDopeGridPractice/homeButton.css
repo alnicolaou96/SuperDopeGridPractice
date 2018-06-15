@@ -1,0 +1,11 @@
+﻿a {
+    text-decoration: none;
+    border: 3px solid yellowgreen;
+    background-color: greenyellow;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    a:hover {
+        color: black;
+    }
