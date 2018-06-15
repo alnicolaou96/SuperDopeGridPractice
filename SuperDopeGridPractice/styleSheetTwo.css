@@ -8,57 +8,34 @@
     margin:2rem auto;
     color:white;
     text-align:center;
-    align-content:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 div{
     background-color:greenyellow;
 }
-.one{
-    grid-column:1 / span 12;
+a {
+    text-decoration: none;
+    border:3px solid yellowgreen;
+    background-color: greenyellow;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.two{
-    grid-column:1/span 6;
+
+    a:hover {
+        color: black;
+    }
+.rone{
+    grid-column:span 12;
 }
-.three{
-    grid-column: 7/ span 6;
+.rtwo{
+    grid-column:span 6;
 }
-.four{
-    grid-column:1/ span 4;
+.rthree{
+    grid-column:span 4;
 }
-.five{
-    grid-column:5/span 4;
+.rfour{
+    grid-column:span 3;
 }
-.six{
-    grid-column:9/span 4;
-}
-.seven{
-    grid-column:1/span 3;
-}
-.eight{
-    grid-column:4/span 3;
-}
-.nine{
-    grid-column:7/span 3;
-}
-.ten{
-    grid-column:10/span 3;
-}
-.eleven{
-    grid-column:1/span 2;
-}
-.twelve{
-    grid-column:3/span 2;
-}
-.thirteen{
-    grid-column:5/span 2;
-}
-.fourteen{
-    grid-column:7/span 2;
-}
-.fifteen{
-    grid-column:9/span 2;
-}
-.sixteen{
-    grid-column:11/span 2;
+.rfive{
+    grid-column:span 2;
 }
